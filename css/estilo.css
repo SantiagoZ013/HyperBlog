@@ -3,3 +3,18 @@ body{
     color: whitesmoke;
     text-align: center;
 }
+
+#container{
+    width: 65%;
+    margin: auto;
+}
+
+#post{
+    border: 2px solid rgb(171, 219, 228);
+}
+
+#post h1{
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(171, 219, 228);
+    
+}
