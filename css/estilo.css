@@ -12,9 +12,3 @@ body{
 #post{
     border: 2px solid rgb(171, 219, 228);
 }
-
-#post h1{
-    padding-bottom: 15px;
-    border-bottom: 2px solid rgb(171, 219, 228);
-    
-}
