@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(96, 170, 161);
+    background-image: url("../../../Pictures/imagenes/minimalism_starry_night_mountains_night_sky_lake_reflection-1954827.jpg");
+    background-position: center;
+    background-attachment: fixed;
     color: whitesmoke;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,22 +22,35 @@ body{
     background-color: rgb(0, 204, 255);
     box-shadow: -3px 6px 20px 0px black;
     margin-bottom: 15px;
+    color: rgb(13, 29, 116);
 }
 
 
 #cabecera{
-    background: rgb(5, 59, 206);
+    display: flex;
+    align-items: center;
+    background: rgb(7, 7, 151);
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 10px;
     padding: 1.2em;
     font-weight: bold;
     font-size: large;
     text-align: left;
+    
 }   
 
+
 #cabecera #tagline{
-    padding: 0 0 0 1em;
+    padding: 0;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+#cabecera #logo{
+    width: 45px;
+}
+
+#cabecera #titulo{
+    padding: 0px 8px 0px 15px;
 }
